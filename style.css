@@ -1,0 +1,461 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    padding: 10px 34px;
+    border: 2px solid #fff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+section {
+    margin-top: 80px;
+}
+/* ============================================================================ Navbar === */
+/* First Row  */
+.navbar .secoundRow {
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar .social_links {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar .social_links a{
+    font-size: 20px;
+    color: #fff;
+}
+.navbar .social_links a i {
+    margin-left: 25px;
+}
+.navbar .social_links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar .navbar-brand {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.navbar .navbar-brand:hover{
+    color: #a9a19efc;
+}
+.navbar .secoundRow .dropdown-menu {
+    background-color: #000;
+    color: #ffffff;
+}
+.navbar .secoundRow .dropdown-menu .dropdown-item {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+.navbar .secoundRow .dropdown-menu .dropdown-item:hover{
+    background-color: #000;
+    color: #a9a19efc;
+    transition: 0.5s;
+}
+.secoundRow .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+/* Secound Row */
+.header_section{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/01.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.header_section .content {
+    color: #ffffff;
+    width: 510px;
+    text-align: center;
+}
+.header_section .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_section .content h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.header_section .content h5{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.header_section .content p {
+    font-weight: 500;
+}
+.header_section{
+    margin-top: 0;
+}
+/* ========================================================================== Secound Section === */
+
+.secound_section .col-md-4 .img {
+    width: 100%;
+}
+.secound_section .col-md-4 .img img {
+    width: 30%;
+}
+.secound_section .col-md-4 {
+    text-align: center;
+}
+.secound_section .content h3 {
+    margin: 25px 0;
+}
+.secound_section .content p {
+    color: #333333;
+}
+.secound_section .content .p2 {
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.secound_section .content .p2:hover {
+    color: #777;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.secound_section .content .p2::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #777;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+/* ======================================================================= Story Section === */
+.story_section .btn {
+    padding: 10px 34px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.story_section .btn:hover {
+    color: #fff;
+    background-color: #333333;
+}
+.story_section .row{
+    width: 100%;
+}
+.story_section img{
+    width: 100%;
+}
+.story_section .content {
+    padding: 30px 55px;
+}
+.story_section .content h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+}
+.story_section .content h6 {
+    font-size: 22px;
+    margin: 25px 0;
+}
+.story_section .content p {
+    color: #333333;
+}
+.story_section .contentWrapper {
+    background-color: #EFEFEF;
+}
+
+.no-gutter > [class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* ============================================================================= Portfolio Section === */
+.portfolio_section .secoundRow {
+    width: 100%;
+    margin-top: 25px;
+}
+.portfolio_section .secoundRow .col-md-3 img {
+    width: 100%;
+}
+.portfolio_section .firstRow .links a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #777;
+}
+.portfolio_section .firstRow .links a span {
+    margin-left: 25px;
+}
+.portfolio_section .firstRow .links a:nth-child(1) {
+    margin-left: 0;
+}
+.portfolio_section .firstRow .links {
+    width: 595px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.portfolio_section .firstRow h5 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.portfolio_section .firstRow h1 {
+    font-size: 60px;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.portfolio_section .firstRow {
+    text-align: center;
+}
+.portfolio_section .secound_section .col-md-3 img:hover {
+    background: red;
+}
+/* ====================================================================== Sixth Section === */
+.sixth_section .btn {
+    padding: 10px 34px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.sixth_section .btn:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+.sixth_section .row{
+    width: 100%;
+}
+.sixth_section .col-md-3:nth-child(1) .img{
+    width: 100%;
+    height: 100vh;
+    background: url(img/background1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sixth_section .col-md-3:nth-child(2) .img{
+    width: 100%;
+    height: 100vh;
+    background: url(img/background2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sixth_section .col-md-3:nth-child(3) .img{
+    width: 100%;
+    height: 100vh;
+    background: url(img/background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sixth_section .col-md-3:nth-child(4) .img{
+    width: 100%;
+    height: 100vh;
+    background: url(img/background4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sixth_section .row .content h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.sixth_section .row .content p{
+    font-weight: 600;
+}
+.sixth_section .content {
+    color: #fff;
+    width: 75%;
+    margin: auto;
+}
+.sixth_section .col-md-3 .wrapper{
+    position: relative;
+}
+.sixth_section .content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ====================================================================== Seventh Section === */
+
+.seventh_section .col-md-4 .img {
+    width: 100%;
+}
+.seventh_section .col-md-4 .img img{
+    width: 30%;
+}
+.seventh_section .col-md-4:nth-child(1) {
+    text-align: center;
+}
+.seventh_section .col-md-4:nth-child(2) {
+    text-align: center;
+}
+.seventh_section .content h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 15px 0px;
+    color: #232323;
+}
+.seventh_section .content h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0px;
+    color: #232323;
+}
+.seventh_section .content p{
+    color: #767676;
+}
+.seventh_section .skill_name {
+    font-size: 16px;
+    color: #767676;
+    text-transform: uppercase;
+    margin: 18px 0px;
+    width: 30%;
+}
+.seventh_section .skill_level {
+    font-size: 16px;
+    color: #767676;
+    text-transform: uppercase;
+    margin: 18px 0px;
+    width: 10%;
+}
+.seventh_section .skills .skill .col-auto {
+    display: flex;
+    justify-content: space-between;
+}
+.seventh_section .skill {
+    width: 100%;
+    max-width: 90%;
+}
+.seventh_section .skill_bar{
+    background: #f0f0f0;
+    width: 100%;
+}
+.seventh_section .skill_per{
+    height: 3px;
+    background: #000;
+    
+}
+.seventh_section .skill:nth-child(1) .skill_bar .skill_per {
+    width: 100%;
+}
+.seventh_section .skill:nth-child(2) .skill_bar .skill_per {
+    width: 90%;
+}
+.seventh_section .skill:nth-child(3) .skill_bar .skill_per {
+    width: 80%;
+}
+.seventh_section .skill:nth-child(4) .skill_bar .skill_per {
+    width: 70%;
+}
+.seventh_section .skill:nth-child(5) .skill_bar .skill_per {
+    width: 60%;
+}
+
+/* ========================================================================== Purchase section === */
+.purchase_section .col-md-4 {
+    text-align: center;
+    color: #fff;
+}
+.purchase_section .container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.purchase_section .col-md-4:nth-child(1) .color {
+    background: #CC2952;
+    padding: 50px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.purchase_section .col-md-4:nth-child(2) .color {
+    background: #29A7C6;
+    padding: 50px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.purchase_section .col-md-4:nth-child(3) .color {
+    background: #ea5a2e;
+    padding: 50px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.purchase_section .col-md-4 .content{
+    background: #fff;
+    color: #767676;
+    border-radius: 0px 0px 20px 20px;
+}
+.purchase_section .col-md-4 .color span{
+    font-size: 75px;
+}
+.purchase_section .col-md-4 .color small{
+    font-size: 25px;
+    vertical-align: top;
+}
+.purchase_section .col-md-4 .color h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.purchase_section .col-md-4 .color h3{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.purchase_section .col-md-4 .content p:nth-child(1){
+    margin-top: 30px;
+}
+.purchase_section .col-md-4 .content p{
+    margin-bottom: 25px;
+}
+.purchase_section .btn {
+    padding: 14px 60px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.purchase_section .btn:hover {
+    color: #fff;
+    background-color: #333333;
+}
+.purchase_section .content{
+    padding: 30px 0px;
+}
+.purchase_section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ================================================================================ Follow Section === */
+.follow_section{
+    background: #767676;
+    margin-top: 0;
+    padding: 20px 0px;
+}
+.follow_section .btnn {
+    padding: 10px 50px;
+    background: #333333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+    transition: 0.6s;
+}
+.follow_section .btnn:hover {
+    color: #fff;
+    background-color: #000;
+}
+.follow_section .firstdiv{
+    width: 31%;
+    margin: auto;
+    color: #fff;
+}
